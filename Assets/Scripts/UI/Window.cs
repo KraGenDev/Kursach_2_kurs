@@ -11,8 +11,7 @@ namespace UI
         [SerializeField] private float _animationDuration = 0.25f;
         [SerializeField] private bool _blockRaycastIfOpen = true;
         [SerializeField] private bool _showOnStart = false;
-
-
+        
         private bool _isShown;
         
         public virtual WindowType Type => WindowType.None;
